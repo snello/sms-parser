@@ -1,0 +1,29 @@
+{
+  "name": "sms-parser",
+  "version": "1.0.0",
+  "description": "An SMS Parser with domain specific requirements",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/snello/sms-parser.git"
+  },
+  "keywords": [
+    "sms",
+    "parser",
+    "datetime"
+  ],
+  "author": "Oliver Snell",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/snello/sms-parser/issues"
+  },
+  "homepage": "https://github.com/snello/sms-parser",
+  "dependencies": {
+    "chrono-node": "~1.1.6",
+    "commander": "~2.9.0",
+    "rabbit.js": "~0.4.4"
+  }
+}
